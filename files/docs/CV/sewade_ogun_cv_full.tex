@@ -1,0 +1,424 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{fontawesome}
+\usepackage[scale=.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\usepackage{tikz}
+
+\usepackage{mathptmx}
+\usepackage[11pt]{moresize}
+
+\newcommand{\github}{%
+\begin{tikzpicture}[y=0.80pt, x=0.8pt,yscale=-1, inner sep=0pt, outer sep=0pt,opacity=0.4]
+  \begin{scope}[shift={(506.69823,386.92617)}]
+    \path[fill=black] (116.9933,59.7217) .. controls (116.9933,71.2283) and
+      (107.6655,80.5562) .. (96.1589,80.5562) .. controls (84.6524,80.5562) and
+      (75.3245,71.2283) .. (75.3245,59.7217) .. controls (75.3245,48.2152) and
+      (84.6524,38.8873) .. (96.1589,38.8873) .. controls (107.6654,38.8873) and
+      (116.9933,48.2152) .. (116.9933,59.7217) -- cycle;
+    \path[cm={{0.88462,0.0,0.0,0.88462,(11.09526,6.89097)}},fill=white]
+      (116.9933,59.7217) .. controls (116.9933,71.2283) and (107.6655,80.5562) ..
+      (96.1589,80.5562) .. controls (84.6524,80.5562) and (75.3245,71.2283) ..
+      (75.3245,59.7217) .. controls (75.3245,48.2152) and (84.6524,38.8873) ..
+      (96.1589,38.8873) .. controls (107.6654,38.8873) and (116.9933,48.2152) ..
+      (116.9933,59.7217) -- cycle;
+    \path[fill=black,nonzero rule] (103.4671,45.2878) .. controls (102.9322,45.4374)
+      and (101.2003,46.2576) .. (100.5403,46.6739) -- (100.1099,46.9454) --
+      (99.4882,46.8019) .. controls (99.0810,46.7080) and (98.1204,46.6415) ..
+      (96.7048,46.6094) .. controls (94.4953,46.5593) and (93.4339,46.6361) ..
+      (92.2380,46.9324) -- (91.6450,47.0793) -- (90.9468,46.6426) .. controls
+      (90.0955,46.1101) and (88.7784,45.4948) .. (88.1825,45.3512) .. controls
+      (87.9348,45.2916) and (87.5225,45.2429) .. (87.2643,45.2429) .. controls
+      (86.8530,45.2429) and (86.7816,45.2733) .. (86.6817,45.4916) .. controls
+      (86.3049,46.3144) and (86.1702,48.1697) .. (86.3982,49.3940) --
+      (86.5087,49.9870) -- (86.0485,50.6088) .. controls (85.4184,51.4600) and
+      (84.9876,52.3958) .. (84.8509,53.2104) .. controls (84.6439,54.4443) and
+      (84.8398,57.3849) .. (85.1880,58.2702) .. controls (85.2564,58.4443) and
+      (85.2939,58.4403) .. (81.6976,58.6338) .. controls (79.2203,58.7672) and
+      (77.4880,58.9815) .. (77.2948,59.1788) .. controls (77.1683,59.3080) and
+      (77.2021,59.3161) .. (77.6325,59.2604) .. controls (79.8802,58.9695) and
+      (83.0680,58.7293) .. (84.6818,58.7293) .. controls (85.3322,58.7293) and
+      (85.3437,58.7337) .. (85.4709,59.0402) .. controls (85.5424,59.2123) and
+      (85.5936,59.3574) .. (85.5857,59.3654) .. controls (85.5778,59.3733) and
+      (84.8826,59.4288) .. (84.0409,59.4888) .. controls (82.1375,59.6245) and
+      (80.3024,59.8884) .. (78.6942,60.2577) .. controls (77.5177,60.5279) and
+      (77.1884,60.6573) .. (77.3264,60.7953) .. controls (77.3578,60.8267) and
+      (77.9386,60.7190) .. (78.6081,60.5575) .. controls (80.6932,60.0548) and
+      (83.4463,59.6858) .. (85.1122,59.6858) .. controls (85.7817,59.6858) and
+      (85.8050,59.6938) .. (85.9497,59.9727) .. controls (86.1509,60.3606) and
+      (87.1973,61.4638) .. (87.6756,61.7923) .. controls (88.7575,62.5354) and
+      (90.1146,63.0487) .. (91.7311,63.3262) .. controls (92.3241,63.4280) and
+      (92.8529,63.5117) .. (92.9028,63.5117) .. controls (92.9519,63.5117) and
+      (92.8171,63.7221) .. (92.6084,63.9708) .. controls (92.2151,64.4395) and
+      (91.8427,65.1574) .. (91.8393,65.4534) .. controls (91.8343,65.8877) and
+      (90.1911,66.2247) .. (89.1390,66.0071) .. controls (88.4365,65.8618) and
+      (87.9449,65.5203) .. (87.3370,64.7552) .. controls (86.5997,63.8274) and
+      (86.0013,63.2318) .. (85.6000,63.0268) .. controls (85.1313,62.7874) and
+      (84.1718,62.7744) .. (83.9782,63.0048) .. controls (83.8657,63.1387) and
+      (83.8975,63.1954) .. (84.2322,63.4586) .. controls (85.1908,64.2122) and
+      (85.6680,64.7934) .. (86.1681,65.8169) .. controls (86.7336,66.9742) and
+      (87.2885,67.5731) .. (88.1825,67.9913) .. controls (88.6992,68.2330) and
+      (88.8042,68.2463) .. (90.1911,68.2463) -- (91.6546,68.2463) --
+      (91.6259,70.0923) -- (91.5972,71.9383) -- (91.2050,72.2922) .. controls
+      (90.9850,72.4908) and (90.6785,72.7603) .. (90.5068,72.9061) .. controls
+      (90.0483,73.2955) and (90.1529,73.4104) .. (90.9946,73.4418) .. controls
+      (91.6450,73.4662) and (91.7691,73.4390) .. (92.3241,73.1503) .. controls
+      (93.3630,72.6098) and (93.3667,72.5983) .. (93.3667,69.8628) .. controls
+      (93.3667,67.3377) and (93.4455,66.7059) .. (93.8107,66.3047) --
+      (94.0458,66.0464) -- (93.9980,69.2506) .. controls (93.9695,71.1540) and
+      (93.9075,72.6024) .. (93.8449,72.8183) .. controls (93.7868,73.0192) and
+      (93.6134,73.3252) .. (93.4575,73.5022) .. controls (93.3059,73.6744) and
+      (93.1754,73.9155) .. (93.1754,74.0235) .. controls (93.1754,74.1976) and
+      (93.2328,74.2243) .. (93.6058,74.2243) .. controls (94.3519,74.2243) and
+      (95.3191,73.5586) .. (95.6209,72.8374) .. controls (95.8285,72.3417) and
+      (95.9492,70.6280) .. (95.9492,68.1794) -- (95.9492,65.9029) --
+      (96.4179,65.9029) -- (96.4465,69.1311) .. controls (96.4752,72.3544) and
+      (96.4756,72.3599) .. (96.7144,72.8374) .. controls (97.1209,73.6505) and
+      (98.5189,74.4873) .. (99.0195,74.2173) .. controls (99.2785,74.0776) and
+      (99.2470,73.9374) .. (98.8154,73.3061) .. controls (98.5996,72.9905) and
+      (98.3935,72.5452) .. (98.3372,72.2731) .. controls (98.2088,71.6514) and
+      (98.2544,66.1949) .. (98.3882,66.1752) .. controls (98.4417,66.1673) and
+      (98.5682,66.3047) .. (98.6752,66.4864) .. controls (98.8508,66.7849) and
+      (98.8704,67.0316) .. (98.9143,69.4898) .. controls (98.9477,71.3645) and
+      (98.9985,72.2310) .. (99.0833,72.3783) .. controls (99.2883,72.7344) and
+      (99.9568,73.2398) .. (100.3777,73.3570) .. controls (100.6002,73.4189) and
+      (101.0568,73.4562) .. (101.4011,73.4406) .. controls (102.2046,73.4043) and
+      (102.2524,73.2299) .. (101.5924,72.7428) .. controls (100.6531,72.0496) and
+      (100.6840,72.1775) .. (100.6746,68.9637) .. controls (100.6656,65.9699) and
+      (100.6109,65.4703) .. (100.2007,64.6499) .. controls (100.0812,64.4108) and
+      (99.8134,64.0644) .. (99.5982,63.8704) -- (99.2108,63.5213) --
+      (99.6603,63.4617) .. controls (100.5690,63.3414) and (102.0372,63.0328) ..
+      (102.6446,62.8345) .. controls (104.1654,62.3382) and (105.5084,61.3208) ..
+      (106.1445,60.1832) -- (106.4227,59.6858) -- (106.9679,59.6858) .. controls
+      (108.9956,59.6858) and (112.7503,60.2177) .. (114.7632,60.7901) .. controls
+      (114.9162,60.8337) and (114.9832,60.8090) .. (114.9832,60.7092) .. controls
+      (114.9832,60.3420) and (111.4059,59.7105) .. (108.1061,59.4950) .. controls
+      (107.2931,59.4419) and (106.6181,59.3838) .. (106.5996,59.3654) .. controls
+      (106.5815,59.3473) and (106.6145,59.1932) .. (106.6713,59.0306) --
+      (106.7765,58.7293) -- (107.9817,58.7323) .. controls (109.6496,58.7363) and
+      (111.7789,58.8872) .. (113.5293,59.1252) .. controls (114.8684,59.3073) and
+      (115.2129,59.3130) .. (115.0501,59.1502) .. controls (114.8456,58.9456) and
+      (112.1137,58.6482) .. (109.3399,58.5285) .. controls (108.0008,58.4707) and
+      (106.8944,58.4168) .. (106.8865,58.4089) .. controls (106.8785,58.4010) and
+      (106.9394,58.0694) .. (107.0204,57.6772) .. controls (107.1184,57.2030) and
+      (107.1719,56.3764) .. (107.1782,55.2382) .. controls (107.1862,53.7174) and
+      (107.1624,53.4295) .. (106.9708,52.7704) .. controls (106.6953,51.8235) and
+      (106.3173,51.0734) .. (105.7225,50.2931) -- (105.2557,49.6810) --
+      (105.2940,48.0598) .. controls (105.3295,46.5581) and (105.3160,46.3927) ..
+      (105.1123,45.8168) -- (104.8923,45.1951) -- (104.4140,45.1760) .. controls
+      (104.1462,45.1653) and (103.7296,45.2145) .. (103.4671,45.2879) -- cycle;
+  \end{scope}
+\end{tikzpicture}
+}
+\firstname{Sewade} % Your first name
+\familyname{Ogun} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+
+
+\address{}{Mbour, Senegal}
+%% \mobile{+234-8447405515}
+\email{sogun@aimsammi.org}
+
+
+
+%% \github{github.com/ogunlao} 
+
+\extrainfo{
+%%  \httplink{https://www.codechef.com/users/priyanka_pps}
+\homepage{https://ogunlao.github.io/} {https://ogunlao.github.io/}}
+
+
+\begin{document}
+
+
+% \makecvtitle 
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+{\LARGE Sewade Olaolu Ogun\par}
+\faAt \href{mailto:sogun@aimsammi.org}{sogun@aimsammi.org} ~ \faGithub \href{https://github.com/ogunlao}{github.com/ogunlao} ~ \faHome \href{http://ogunlao.github.io}{ogunlao.github.io} ~ \faPhone +221778309959 ~ \faLinkedin.\href{https://www.linkedin.com/in/sewade-ogun/}{ogunlao}
+
+\section{\faUniversity ~ Education}
+
+\cventry{2019--2020}{MSc. Mathematical Sciences}{Machine Intelligence}{in-view}{}{African Institute for Mathematical Sciences (AIMS), Ghana
+- \em{Distinction}}
+
+\cventry{2007--2012}{B.Tech Electronic and Electrical Engineering}{}{}{}{Ladoke Akintola University of Technology (LAUTECH), Nigeria - \em{First Class}}  % Arguments not required can be left empty
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{\faBriefcase ~ Experience}
+
+\cventry{12.20--Present}{Teaching Assistant/Tutor}{AIMS/AMMI }{}{}{\href{https://www.aimsammi.org/}{African Institute for Mathematical Sciences, Senegal}}
+
+\cventry{03.2021--Present~}{Machine Learning Researcher}{Remote}{}{}{\href{https://ubenwa.ai/}{Ubenwa - Quebec, Canada} \\
+	\faLightbulbO~ Working on deploying models on cloud and embedded devices \\
+	\faLightbulbO ~ Research on reducing latency of model inference on cloud and device \\
+	\faLightbulbO~ Developed a Cry Activity Detection library for segmenting cry signals in audio among more than 79 different non-cry sounds \\
+	\faLightbulbO ~ Developed a model to detect infant pathology such as asphyxia from cry
+	}
+
+\cventry{02.2020--11.2020~}{NLP Engineer}{Remote}{}{}{\href{https://www.proto.cx/}{Proto - Vancouver, Canada} \\
+	\faLightbulbO ~ Built a conversational AI tool to automate Covid-19 education and counter disinformation in Nigeria \\
+	\faLightbulbO ~ Worked on data labelling for African languages
+}
+\cventry{04.2017--10.2019~}{Predictive Maintenance Officer}{}{}{}{\href{https://fmnplc.com/}{Flour Mills of Nigeria Plc}}
+
+\cventry{04.2015--03.2017~}{Geographic Information System Officer}{}{}{}{{Benin Electricity Distribution Company}}
+
+\cventry{03.2013--04.2013~}{National Youth Service Corps}{}{}{}{{Wesley University of Science and Technology}}
+
+%\cventry{03.13--02.14}{Laboratory Assistant- NYSC}{}{}{}{Wesley University of Science and Technology, Ondo\\
+%	Co-organized practical classes for Physics students. Assisted lecturers in experiment designs}
+%\cventry{02.18--Present}{NLP Engineer}{Remote/Part Time}{}{}{Proto\\
+%	\textbf{Objective}: Create modern chatbots for Africa financial markets\\
+%	\textbf{Group Size}: 6\\
+%	To create a website for Makerspace  Lab which helps student in scheduling tools of the facility and giving tutorial on how to use them. It will also tell the student about who are trained in any particular tool.  \\}
+
+%----------------------------------------------------------------------------------------
+%	GRADUATE COURSEWORK
+%----------------------------------------------------------------------------------------
+\section{\faGraduationCap ~ Graduate Coursework}
+\renewcommand{\listitemsymbol}{-~}
+{\small
+\cvitem{}{Machine Learning, Speech and Natural Language Processing, Convex Optimization, Deep Learning, Reinforcement Learning, Gaussian Processes, Computer Vision, Kernel Methods, Matrix Factorization}
+\par}
+
+
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+\section{\faTerminal ~ Technical Skills}
+\renewcommand{\listitemsymbol}{-~}
+{\small
+\cvitem{1}{Programming Languages: python, javascript, SQL}
+\cvitem{2}{Deep Learning Frameworks: pyTorch, pytorch-lightning, tensorflow, Fastai}
+\cvitem{3}{Research: Git, scikit-learn, NumPy, pandas, spacy, huggingFace, \LaTeX}
+\cvitem{4}{web: Google Cloud, Colab, Heroku, NodeJS, Django, React}
+\par}
+
+%\newpage
+%----------------------------------------------------------------------------------------
+%	PROJECT
+%----------------------------------------------------------------------------------------
+
+\section{\faLaptop ~ Projects}
+\cventry{}{Cry Activity Detection}{}{}{}
+{\textbf{}Cry Activity Detector (similar to a Voice activity detector) that distinguish cry from other activity in audio
+}
+\cventry{}{Infant Disease Detection from Cry}{}{}{}
+{\textbf{}Determine if a baby has a set of diseases by; analyzing her cry sample, and machine learning classification
+}
+
+\cventry{}{Yoruba Speech Dataset: A dataset for low-resource speech tasks}{\href{https://github.com/ogunlao/yoruba_speech_project}{\faExternalLink}}{}{}
+{\textbf{}Over 3 hours of clean audio recordings of yoruba text. It can be used for low-resource automatic speech recognition
+}
+
+\cventry{}{Exploring Detectron2 for Object Detection Tasks}{\href{https://github.com/ogunlao/exploring_detectron2}{\faExternalLink}}{}{}{Segmentation, pose estimation and object tracking performed on custom datasets using detectron2 library}
+
+\cventry{}{Cassava Disease Classification}{\href{https://github.com/ogunlao/cassava_disease_classification}{\faExternalLink}}{}{}{Classify Cassava leaves as belonging to one of 4 various disease classes or healthy}
+
+\cventry{}{DNA Sequence Classification using Kernel Methods}{\href{https://github.com/ogunlao/dna-sequence-kernels}{\faExternalLink}}{}{}{Predict whether DNA sequence region is binding site using Kernel methods. Experimented with different kernels such as mismatch kernel, gaussian kernel, weighted-degree kernel}
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS AND TRAININGS
+%----------------------------------------------------------------------------------------
+\section{\faCogs ~ Additional Courses and Certifications}
+\cventry{2020}{Data Engineering with Google Cloud}{Coursera/Google}{\href{https://coursera.org/share/583fd896f7f7a94d03d0e7dcb1a26010}{\faExternalLink}}{}
+{\textbf{}Designed solutions involving Extract, Transform and Load (ETL) operations of batch/streaming data using Cloud Dataproc, Cloud Dataflow and Bigquery; analyzed big data using Google Data Studio and Bigquery}
+
+\cventry{2019}{Deep Learning Specialization}{deeplearning.ai}{\href{https://coursera.org/share/28fc0f567716e2bd6588ff3b18bbc229}{\faExternalLink}}{}{Implemented deep learning models and algorithms such as batch normalization, convolution, optimization algorithms(RMSprop, Adam), YOLO, LSTM enabling a concrete understanding of the subject.}
+
+\cventry{2019}{IBM Data Science Professional Certificate}{Coursera/IBM}{\href{https://coursera.org/share/0f01b4b26ce4be4a68e5659bdfd922f0}{\faExternalLink}}{}{Instance segmentation, pose estimation, object tracking performed on datasets using the detectron2 library. Pretrained models finetuned on custom tasks - \href{https://github.com/ogunlao/exploring_detectron2}{Project Link}}
+
+\cventry{2014}{Oracle Database SQL Administration}{}{}{Oracle University}{SQL Administration, Database management}
+
+%----------------------------------------------------------------------------------------
+%	WORKSHOP
+%----------------------------------------------------------------------------------------
+\section{\faWrench ~ Workshops}
+\renewcommand{\listitemsymbol}{-~}
+{\small
+	\cvitem{2021}{Volunteered at International Conference for Learning and Representations, ICLR 2021}
+	\cvitem{2020}{Machine Learning Summer School, Max Planck Institute of Intelligent Systems, Germany - Virtual}
+	\cvitem{2019}{Deep Learning IndabaX, Lagos}
+	\par}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLES
+%----------------------------------------------------------------------------------------
+\section{\faPencil ~ Articles/Talks}
+\renewcommand{\listitemsymbol}{-~}
+{\small
+	\cvitem{MSc Thesis}{Towards a Weakly-Supervised Learning Paradigm for
+		Speech Recognition. Supervisor: Moustapha Cisse (Google AI) and Yossi Adi (Facebook AI)}
+	\cvitem{Articles}{How to create a speech dataset for ASR, TTS, and other speech tasks \href{https://ogunlao.github.io/blog/2021/01/26/how-to-create-speech-dataset.html}{\faExternalLink}}
+	\cvitem{}{From GRU to Transformer \href{https://ogunlao.github.io/blog/2020/06/12/from_gru_to_transformer.html}{\faExternalLink}}
+%	\cvitem{}{K Nearest Neighbor as a Neural Network \href{https://ogunlao.github.io/2020/05/23/knn-as-a-neural-network.html}{[link]}}
+%	\cvitem{}{You Don't Really Know Softmax \href{https://ogunlao.github.io/2020/04/26/you_dont_really_know_softmax.html}{[link]}}
+	\cvitem{}{Other interesting articles on \href{https://ogunlao.github.io/archive/index.html}{$\underline{my~ homepage}$ \faHome}}
+	\par}
+{\small
+	\cvitem{Talk}{Adversarial Examples: Showing how deep learning models can be fooled by adversarial attacks \href{https://github.com/ogunlao/adversarial-example-presentation/blob/master/AdversarialExamples.pdf}{\faExternalLink}}
+	\par}
+
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{\faTrophy ~ Awards/Scholarships}
+\cvitem{2019}{Masters Scholarship, sponsored by Facebook and Google}
+\cvitem{2012}{Best Graduating Student, Electrical Communications, Undergraduate}
+\cvitem{2009 - 2011}{MTN Foundation Science and Technology Scholarship}
+\cvitem{2006}{1st Place, Lagos State Mathematics Olympiad, High school}
+\cvitem{2004}{Bronze Medal, National Junior Science Olympiad, High school}
+
+%----------------------------------------------------------------------------------------
+%	SERVICE
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	WORKSHOP
+%----------------------------------------------------------------------------------------
+\section{\faUsers ~ AI Communities}
+\renewcommand{\listitemsymbol}{-~}
+{\small
+\cvitem{}{Masakhane NLP Research Group}
+\cvitem{}{Black-In-AI}
+\par}
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Technologies and characterization of ferroelectric polymers for biomedical sensors}}
+%\cvitem{Supervisors}{Professor Antonino Fiorillo}
+%\cvitem{Description}{This thesis is based on the implementation of a temperature sensor.}
+
+
+%------------------------------------------------
+
+
+%\section{Major Courses Undertaken}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%{\small
+%\cvitem{Computer Science}{ Computer Graphics and Multimedia, Artificial Intelligence, Design and Analysis of Algorithms, Theory of Computation, Operating Systems, Programming Languages, Database Management System, Computer Architecture, Discrete Mathematics, Data Structures.
+%}
+
+%\cvitem{Mathematics}{ Statistical Methods, Probability, Differential Calculus, Linear Algebra, Matrix Theory, Complex Analysis, Vector Calculus.
+%}
+%\par}
+
+%----------------------------------------------------------------------------------------
+%	Coursework SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Certificates and Workshop}
+%{\small
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%
+%\cvitem{1}{\textbf {CodeChef Certified Data Structure and Algorithms Programme (CCDSAP)-}
+%I won \textbf {scholarship} to give CCDSAP foundation exam held on it on 19th November 2017.  I passed the CCDSAP foundation exam.}
+%          
+%
+%\cvitem{2}{ Attended one day workshop on \textbf {Angular.js and React} by Brain Mentors.}
+% 
+%\cvitem{3}{ Attended one day workshop on \textbf {Machine Learning using Python} by Brain Mentors.}
+% 
+%
+%\par}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+
+%\cvitemwithcomment{Spanish}{Basic}{}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvlistdoubleitem{Piano}{}
+% \cvlistitem{Baseball}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+

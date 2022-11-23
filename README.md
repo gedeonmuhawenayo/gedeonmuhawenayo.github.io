@@ -2,7 +2,9 @@
 
 I am a machine learning research engineer with strong interests in machine learning systems that leverage satellite imagery for real-world applications. Specifically AI for conservation and sustainable farming. I am part of the Rwanda Space Agency (RSA) Geospatial team, where I apply machine learning methods on satellite/aerial imagery.
 
-Prior to RSA, I was a machine learning research engineer at [INRIA Grenoble](9https://www.inria.fr/en/inria-centre-university-grenoble-alpes) where my research focused on hyperspectral unmixing and sparse coding. I have a masters in Machine Intelligence from [AMMI](https://aimsammi.org/about-ammi-2/) where I worked with [Georgia Gkioxari](https://gkioxari.github.io/) on deep compression for edge computing and their application in conservation of the environment.<br><br>
+Prior to RSA, I was a machine learning research engineer at [INRIA Grenoble](9https://www.inria.fr/en/inria-centre-university-grenoble-alpes) where my research focused on hyperspectral unmixing and sparse coding. I have a masters in Machine Intelligence from [AMMI](https://aimsammi.org/about-ammi-2/) where I worked with [Georgia Gkioxari](https://gkioxari.github.io/) on deep compression for edge computing and their application in conservation of the environment.<br>
+
+My [CV/Resume](https://gedeonmuhawenayo.github.io/files/docs/Resume_Gedeon_Muhawenayo_October_2022.pdf) <br><br>
 
 # Research and Publications 
 

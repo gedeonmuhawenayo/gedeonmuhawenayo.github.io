@@ -6,6 +6,9 @@ Prior to RSA, I was a machine learning research engineer at [INRIA Grenoble](9ht
 
 My [CV/Resume](https://gedeonmuhawenayo.github.io/files/docs/Resume_Gedeon_Muhawenayo_October_2022.pdf) <br><br>
 
+# News
+- **December 2022:** Co-organizing the Machine Learning for Remote Sensing workshop at ICLR 2023 [Workshop [website](https://nasaharvest.github.io/ml-for-remote-sensing/iclr2023/)]
+
 # Research and Publications 
 
 |  |  |

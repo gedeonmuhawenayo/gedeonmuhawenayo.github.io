@@ -1,13 +1,13 @@
 # About Me 
 
-I am a machine learning research engineer with strong interests in machine learning systems that leverage satellite imagery for real-world applications. Specifically AI for conservation and sustainable farming. I am part of the Rwanda Space Agency (RSA) Geospatial team, where I apply machine learning methods on satellite/aerial imagery.
+I am a PhD student at Arizona State University advised by [Hannah Kerner](https://hannah-rae.github.io/) focusing on Machine Learning for Remote Sensing. I am part of the Rwanda Space Agency (RSA) Geospatial team, where I contribute on the development of machine learning systems that leverage satellite imagery for real-world applications.
 
 Prior to RSA, I was a machine learning research engineer at [INRIA Grenoble](9https://www.inria.fr/en/inria-centre-university-grenoble-alpes) where my research focused on hyperspectral unmixing and sparse coding. I have a masters in Machine Intelligence from [AMMI](https://aimsammi.org/about-ammi-2/) where I worked with [Georgia Gkioxari](https://gkioxari.github.io/) on deep compression for edge computing and their application in conservation of the environment.<br>
 
 My [CV/Resume](https://gedeonmuhawenayo.github.io/files/docs/Resume_Gedeon_Muhawenayo_October_2022.pdf) <br><br>
 
 # News
-- **December 2022:** Co-organizing the Machine Learning for Remote Sensing workshop at ICLR 2023 [Workshop [website](https://nasaharvest.github.io/ml-for-remote-sensing/iclr2023/)]
+- **December 2022:** Co-organized the Machine Learning for Remote Sensing workshop at ICLR 2023 [Workshop [website](https://nasaharvest.github.io/ml-for-remote-sensing/iclr2023/)]
 
 # Research and Publications 
 

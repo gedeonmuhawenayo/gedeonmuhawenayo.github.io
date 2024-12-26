@@ -16,5 +16,7 @@ My [CV/Resume](https://gedeonmuhawenayo.github.io/files/docs/Resume_Gedeon_Muhaw
 1. 🆕 **Muhawenayo, G.**, Zvonkov, I., Tárano, A. M., Nakalembe, C., Smith, I., Wakhanala, C. A., Tabor, K., McNally, A., Becker-Reshef, I., & Kerner, H. R. (2024). Quantifying the impact of conflict on agricultural land in Sudan using machine learning and earth observation data. American Geophysical Union (AGU), GC33O.
 
 1. 🆕 Purohit, M.\*, **Muhawenayo, G.\***, Rolf, E., & Kerner, H. (2025). How does the spatial distribution of pre-training data affect geospatial foundation models? Good-Data, AAAI 2025.
+
 1. Zouaoui, A., **Muhawenayo, G.**, Rasti, B., Chanussot, J., & Mairal, J. (n.d.). Entropic descent archetypal analysis for blind hyperspectral unmixing. IEEE. /<a href="https://github.com/inria-thoth/EDAA">Github</a> /<a href="https://ieeexplore.ieee.org/document/10213413"> IEEE Explore</a> /
+
 1. **Muhawenayo, G.**, & Gkioxari, G. (2021). Compressed object detection. Black in AI Workshop, NeurIPS 2021. /<a href="https://github.com/Gedeon-m-gedus/compressed_object_detection">Github</a> /<a href="https://arxiv.org/abs/2102.02896"> arXiv</a> /
